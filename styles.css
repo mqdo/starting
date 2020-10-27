@@ -1,0 +1,159 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    margin-left: 20px;
+    text-shadow: 1px 1px blanchedalmond;
+}
+
+header nav {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+header li {
+    display: inline;
+    margin-left: 30px;
+    color: blanchedalmond;
+}
+
+body {
+    position: absolute;
+    margin-top: 90px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+.colors, .fonts, .styles {
+    background-color: blanchedalmond;
+    margin: 10px;
+    margin-right: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.title {
+    border-style: solid;
+    padding: 1px auto;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.content {
+    margin: 0 3px;
+}
+
+.box {
+    border-radius: 3px;
+    padding: 0 10px;
+    width: 32%;
+    height: 24%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+.name .hex {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.forest {
+    background-color: #2b4d59;
+    color: blanchedalmond;
+}
+
+.grass {
+    background-color: #39998e;
+}
+
+.sunshine {
+    background-color: #ffdc7c;
+}
+
+.bronze {
+    background-color: #ffaa67;
+}
+
+.active {
+    background-color: #da674a;
+    color: blanchedalmond;
+}
+
+h3 {
+    line-height: 3;
+    top: 0;
+}
+
+.lato h3, .lato p {
+    font-family: 'Lato', sans-serif;
+}
+
+.roboto h3, .roboto p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.poppins h3, .poppins p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    display: inline-flex;
+    opacity: 0.5;
+    
+}
+
+footer img {
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+footer p {
+    color: blanchedalmond;
+    margin: 2%;
+    padding: auto 0;
+}
